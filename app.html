@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delicious Bites</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Delicious Bites</h1>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="filters">
+      <button onclick="filterMenu('all')">All</button>
+      <button onclick="filterMenu('burger')">Burgers</button>
+      <button onclick="filterMenu('pizza')">Pizza</button>
+      <button onclick="filterMenu('dessert')">Desserts</button>
+    </div>
+    <div class="menu-items">
+      <div class="item burger">🍔 Cheeseburger</div>
+      <div class="item pizza">🍕 Pepperoni Pizza</div>
+      <div class="item dessert">🍰 Chocolate Cake</div>
+      <div class="item burger">🍔 Veggie Burger</div>
+      <div class="item pizza">🍕 Margherita Pizza</div>
+      <div class="item dessert">🍦 Ice Cream</div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We serve the tastiest food with the freshest ingredients. Come enjoy our meals made with love!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Delicious Bites. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
